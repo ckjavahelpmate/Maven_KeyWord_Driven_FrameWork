@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class KeyWordsUtility {
 	public static WebDriver driver;
@@ -38,6 +39,7 @@ public class KeyWordsUtility {
 
 	public void closeBrowser() {
 		driver.quit();
+		
 	}
 
 }
